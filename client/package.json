@@ -1,0 +1,23 @@
+{
+	"name": "client",
+	"version": "1.0.0",
+	"main": "index.js",
+	"scripts": {
+		"build": "npx webpack --mode production",
+		"start": "npx webpack-dev-server --mode development"
+	},
+	"keywords": [],
+	"author": "",
+	"license": "ISC",
+	"description": "",
+	"devDependencies": {
+		"html-loader": "^5.1.0",
+		"html-webpack-plugin": "^5.6.3",
+		"webpack": "^5.96.1",
+		"webpack-cli": "^5.1.4",
+		"webpack-dev-server": "^5.1.0"
+	},
+	"dependencies": {
+		"axios": "^1.7.7"
+	}
+}
